@@ -1,0 +1,2 @@
+This program will record keystrokes.
+It will send the data to a remote server.
