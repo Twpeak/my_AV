@@ -1,0 +1,3 @@
+with open('suspicious_pe_file.exe', 'wb') as f:
+    f.write(b'MZ')  # PE 文件的开头是 "MZ"
+    f.write(b'\x00' * 100)  # 填充剩余内容
